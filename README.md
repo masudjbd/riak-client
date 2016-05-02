@@ -1,16 +1,16 @@
 ## Usage
 
-### init
+### Init
     var riakClient = require("riak-client");
  
-### define meta data where object will store 
+### Define meta data where object will store 
     var metaObj = { 
                     bucketType: "tenant", 
                     bucket: "custom", 
                     key:"mailid@maildomain.com"
                    };
 
-### define object
+### Define object
     var data = {
                 name: "Zephyr", 
                 company: "Software"
@@ -28,7 +28,7 @@
      riakClient.get(metaObj, function(rs){
          console.log( rs.value);
      
-### update data
+### To update data from existing object
          var obj = rs.value;
          obj.name = "The DBA"; //updated name
          rs.setValue(obj);
