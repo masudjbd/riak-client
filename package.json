@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/masudjbd/riak-client/issues"
   },
-  "homepage": "https://github.com/masudjbd/riak-client#readme"
+  "homepage": "https://github.com/masudjbd/riak-client#readme",
+  "dependencies": {
+    "basho-riak-client": "^2.1.2"
+  }
 }

@@ -12,22 +12,23 @@
 //     console.log("Result: "+rs);
 // });
 //
-// //retrieve data and update data
+//  //retrieve data
 // riakclient.get(metaObj, function(rs){
 //     console.log( rs.value);
 //
 //     //update data
 //     var obj = rs.value;
-//     obj.name = "The DBA"; //updated name
+//     obj.name = "Masud";
 //     rs.setValue(obj);
 //     riakclient.update(metaObj, rs, function(rs){
 //         console.log("Updated Result: "+rs);
 //     });
-// });
 //
-//
-// //delete data
+//  });
+
+
+// delete data
 // riakclient.delete(metaObj, function(rs){
 //     console.log("Result "+ rs);
 // });
-//
+
