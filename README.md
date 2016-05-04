@@ -1,7 +1,7 @@
 ## Usage
 
 ### Init
-    var riakClient = require("riak-client");
+    var riakClient = require("riak_client");
  
 ### Define meta data where object will store 
     var metaObj = { 
