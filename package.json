@@ -1,6 +1,6 @@
 {
-  "name": "riak-client",
-  "version": "1.0.0",
+  "name": "riak_client",
+  "version": "1.0.1",
   "description": "Riak Client for CRUD operation.",
   "main": "index.js",
   "scripts": {
